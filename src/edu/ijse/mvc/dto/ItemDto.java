@@ -6,10 +6,9 @@ package edu.ijse.mvc.dto;
 
 /**
  *
- * @author Duvindu Adithya
+ * @author anjana
  */
 public class ItemDto {
-    
     private String code;
     private String description;
     private String packSize;
@@ -27,51 +26,78 @@ public class ItemDto {
         this.qoh = qoh;
     }
 
-    public String getItemCode() {
+    /**
+     * @return the code
+     */
+    public String getCode() {
         return code;
     }
 
-    public void setItemCode(String code) {
+    /**
+     * @param code the code to set
+     */
+    public void setCode(String code) {
         this.code = code;
     }
 
+    /**
+     * @return the description
+     */
     public String getDescription() {
         return description;
     }
 
+    /**
+     * @param description the description to set
+     */
     public void setDescription(String description) {
         this.description = description;
     }
 
+    /**
+     * @return the packSize
+     */
     public String getPackSize() {
         return packSize;
     }
 
+    /**
+     * @param packSize the packSize to set
+     */
     public void setPackSize(String packSize) {
         this.packSize = packSize;
     }
 
+    /**
+     * @return the unitPrice
+     */
     public double getUnitPrice() {
         return unitPrice;
     }
 
+    /**
+     * @param unitPrice the unitPrice to set
+     */
     public void setUnitPrice(double unitPrice) {
         this.unitPrice = unitPrice;
     }
 
+    /**
+     * @return the qoh
+     */
     public int getQoh() {
         return qoh;
     }
 
+    /**
+     * @param qoh the qoh to set
+     */
     public void setQoh(int qoh) {
         this.qoh = qoh;
     }
 
     @Override
     public String toString() {
-        return "ItemDto{" + "itemCode=" + code + ", description=" + description + ", packSize=" + packSize + ", unitPrice=" + unitPrice + ", qoh=" + qoh + '}';
+        return "ItemDto{" + "code=" + code + ", description=" + description + ", packSize=" + packSize + ", unitPrice=" + unitPrice + ", qoh=" + qoh + '}';
     }
-    
-    
-    
 }

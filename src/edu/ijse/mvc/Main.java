@@ -8,15 +8,15 @@ import edu.ijse.mvc.view.ItemView;
 
 /**
  *
- * @author Duvindu Adithya
+ * @author anjana
  */
-public class Demo1 {
+public class Main {
 
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
-         new ItemView().setVisible(true);
+    public static void main(String[] args) throws Exception{
+        new ItemView().setVisible(true);
     }
     
 }
